@@ -60,6 +60,7 @@ h1 {
 .experinace-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+  background-position: left center;
 }
 
 #web-devoloper-ex {
