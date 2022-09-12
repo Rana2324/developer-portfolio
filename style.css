@@ -1,41 +1,74 @@
 body {
-   
+
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
-    font-size:50px;
+
+h1 {
+    font-size: 50px;
 }
-.orange-color{
+
+.orange-color {
     color: orange;
 }
-section{
+
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;;
+    margin-bottom: 150px;
+    ;
 }
-.half-width{
-    width:50%;
+
+.half-width {
+    width: 50%;
     padding-left: 5%;
 }
-.half-width img{
-    width:100%;
+
+.half-width img {
+    width: 100%;
 }
-.link-btn{
+
+.link-btn {
     text-decoration: none;
-    background-color:orange;
+    background-color: orange;
     padding: 10px 30px;
     background-image: linear-gradient(orange, tomato);
-    border-radius:5px;
+    border-radius: 5px;
     color: white;
     font-weight: 700;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+
+.dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
 }
- 
+
+.exeriance-item {
+    width: 40%;
+    margin: 0 5%;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 5px solid black;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.experinace-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#web-devoloper-ex {
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+   
+}
+#baby-devoloper-ex{
+    border-image: linear-gradient(salmon, tomato) 30;
+}
+footer p{
+    text-align: center;
+}
